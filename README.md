@@ -1,4 +1,4 @@
-# Week 2 — Learning Quantum State Tomography (Track 2)
+# Week 2 — Quantum State Tomography (Track 2)
 
 This repository trains a neural network to perform single-qubit quantum state tomography.
 
@@ -8,9 +8,7 @@ This repository trains a neural network to perform single-qubit quantum state to
 - Model: MLP (6 → 64 → 64 → 4)
 - Output parameterization: Cholesky lower-triangular matrix L
 - Density matrix reconstruction:
-  \[
-  \rho = \frac{LL^\dagger}{\mathrm{Tr}(LL^\dagger)}
-  \]
+ rho = (L L†) / Tr(L L†)
 
 ## How to run
 ```bash
