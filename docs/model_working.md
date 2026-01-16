@@ -33,7 +33,8 @@ This guarantees rho is always:
 ## Training Loss
 The training loss is Frobenius distance:
 
-L = ||rho_pred - rho_true||_F^2
+Loss = FrobeniusNorm(rho_pred - rho_true)^2
+
 
 ## Results
 Mean Fidelity: 0.9960  
